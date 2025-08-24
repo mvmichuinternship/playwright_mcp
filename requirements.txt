@@ -1,0 +1,53 @@
+# Enhanced MCP Browser Automation with Moondream Integration
+# Core Dependencies
+
+# Browser automation
+playwright
+playwright-stealth
+
+# MCP (Model Context Protocol)
+mcp
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.8
+langchain-core>=0.1.0
+
+# HTTP client for Moondream API
+aiohttp>=3.9.0
+aiofiles>=23.0.0
+
+# Data handling
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Async utilities
+asyncio-mqtt>=0.13.0
+
+# Image processing (optional, for enhanced screenshot handling)
+Pillow>=10.0.0
+
+# Logging and monitoring
+structlog>=23.0.0
+
+# Development and debugging
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
+
+# System utilities
+psutil>=5.9.0
+
+# JSON handling
+orjson>=3.9.0
+
+# Configuration management
+python-dotenv
+
+# Error tracking and retry logic
+tenacity>=8.2.0
+
+#moondream
+moondream
